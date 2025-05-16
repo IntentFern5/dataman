@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import plotly as px
  
 st.title('Datos')
 df = pd.read_csv("Tiempo_espera.csv")
